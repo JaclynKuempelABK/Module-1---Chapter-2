@@ -5,7 +5,7 @@ int main()
     using std::cout;
     using std::cin;
     using std::endl;
-    double num1, num2, num3, sum;
+    float num1, num2, num3, sum = 0.0f;
 
     // ask for 3 numbers
     cout << "Enter the 1st number: ";
@@ -25,5 +25,5 @@ int main()
 
     cout << "The sum of the 3 numbers is: " << sum << endl;
 
-    cout << "The average of the 3 numbers is: " << sum / 3 << endl;
+    cout << "The average of the 3 numbers is: " << sum / 3.0f << endl;
 }

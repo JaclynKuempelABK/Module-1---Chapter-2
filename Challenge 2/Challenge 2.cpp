@@ -1,11 +1,11 @@
 #include <iostream>
 
-double numCubed(double num);
+float numCubed(float num);
 
 
 int main()
 {
-    double chosenNum;
+    float chosenNum = 0.0f;
 
     std::cout << "Enter a number you would like cubed: ";
 
@@ -14,7 +14,7 @@ int main()
     std::cout << chosenNum << " cubed is: " << numCubed(chosenNum);
 }
 
-double numCubed(double num)
+float numCubed(float num)
 {
     return num * num * num;
 }
